@@ -21,10 +21,10 @@ copyright = "&copy; Hui-Jun Chen 2019"
 lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [params]
-description = "Life notes for Hui-Jun Chen, Ph.D. student in Economics, The Ohio State University"
-twitter = "your_twitter_id"
+description = "Homepage for Hui-Jun Chen, Ph.D. student in Economics, The Ohio State University"
+# twitter = "your_twitter_id"
 # You can use favicon by addin them manually.
-useIcon = true
+useIcon = false
 useTwitterCard = true
 
 shareTo = ["Email", "Hatena", "Facebook", "Pocket"]

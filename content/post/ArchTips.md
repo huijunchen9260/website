@@ -40,7 +40,6 @@ Direct way:
 		- Install CUPS, Common UNIX Printing System, and HP Linux-imaging and printing:
 			- `sudo pacman -S cups hplip`
 		- Install driver with root priviledge: `sudo hp-setup -i`
-		- Check your printer is ready in `system-config-printer`
-		- Go to `zathura` and print your file!
+		- Check your printer is ready in `system-config-printer` - Go to `zathura` and print your file!
 		- If the printer says "unplugged or turned off", then delete the printer in the `system-config-printer` and add it again.
 
