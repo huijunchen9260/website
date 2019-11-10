@@ -2,27 +2,37 @@
 title: "Arch Tips"
 date: 2019-11-09T18:11:12-05:00
 draft: false
+categories: ["Linux"]
+tags:
+- Arch
 ---
 
-- Firefox cannot paste anything on facebook manager:
-	- [Solution](https://webapps.stackexchange.com/questions/73068/why-cant-i-paste-into-comments-in-facebook-in-firefox#75989)
-	- Type `about:config` in New Tab
-	- Search for `dom.event.clipboardevents.enabled`, and change the value
-	  to enable.
+## Firefox cannot paste anything on facebook manager
 
-- Get system info on command line
-	- `uname -a`
+Reference: [Solution](https://webapps.stackexchange.com/questions/73068/why-cant-i-paste-into-comments-in-facebook-in-firefox#75989)
 
-- Clean orphan packages
-	- `sudo pacman -Rns $(pacman -Qtdq)`
-- Clean pacman cache
-	- Safe way:
-		- Install pacchace first: `sudo pacman -S pacman-contrib`
-		- Then run paccache:
+Type `about:config` in New Tab, and search for `dom.event.clipboardevents.enabled`, and change the value to enable.
+
+## Get system info on command line
+
+`uname -a`
+
+## Clean orphan packages
+
+`sudo pacman -Rns $(pacman -Qtdq)`
+
+
+## Clean pacman cache
+
+Safe way:
+
+Install pacchace first: `sudo pacman -S pacman-contrib`
+Then run paccache:
 		- Delete all except three recent package: `sudo paccache -r`
-	- Direct way:
+
+Direct way:
 		- Delete all: `sudo pacman -Scc`
-- Printer:
+## Printer:
 	- HP Printers:
 		- Reference: [Link(Second Answer)](https://unix.stackexchange.com/questions/359531/installing-hp-printer-driver-for-arch-linux/)
 		- Plug-in printer.
