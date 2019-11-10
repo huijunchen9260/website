@@ -1,52 +1,56 @@
-baseurl = "https://huijunchen9260.github.io/"
-theme = "hugo-geo"
-relativeURLs = false
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-disqusShortname = "shortcode-here"
+title = "Ezhil"
+theme = "ezhil"
 paginate = 5
 
-[taxonomies]
-	tag = "tags"
-	tutorial = "tutorials"
+copyright = "© Copyright notice"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+disqusShortname = "ezhil-demo"
 
 [params]
-	showglobe = true
+	subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
+	disableDisqusTypes = ["page"]
+	featherIconsCDN = true
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
 
-	favicon = "favicon.ico"
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-	analytics = "code-here"
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
 
-	email = "alexurquhart@gmail.com"
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
 
-	profilepic = "img/profile.png"
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
 
-	title = "MY NAME"
-	subtitle = "MY HUGO BLOG"
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/vividvilla/ezhil"
 
-	# Social buttons for sidebar
-	# Each of these are optional
-	[[params.socialbuttons]]
-	faicon = "github"
-	url = "https://github.com/alexurquhart"
-	[[params.socialbuttons]]
-	faicon = "twitter"
-	url = "https://twitter.com/alexanderurq"
-	[[params.socialbuttons]]
-	faicon = "linkedin"
-	url = "https://linkedin.com"
-	[[params.socialbuttons]]
-	faicon = "google-plus"
-	url = "https://plus.google.com/+YourID"
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
 
-	[[params.navlinks]]
-	name = "About"
-	url = "about"
-
-	[[params.navlinks]]
-	name = "Blog"
-	url = ""
-
-	[[params.navlinks]]
-	name = "Tutorials"
-	url = "tutorial/"
+[taxonomies]
+   tag = "tags"
