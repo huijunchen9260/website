@@ -8,13 +8,15 @@ tags:
 showDate: true
 ---
 
+
 As a Ph.D. student, we all need to build or website to show our research and to introduce ourselves to the world. This post is my note on how to use Hugo, a static website generator, to build your own website and host it on GitHub.
 
 ## GitHub part
-
 First of all, you need to sign up an account on GitHub. [Details](https://help.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account) is on official website.
 
 After signed up, you can press the icon on the top-right cornor and enter your profile.
+
+![Hugo test](/images/HugoNote/HugoNote1.png)
 
 Then create two new repository: `website` (or any name that store your raw content of your website) and `<username>.github.io` (the actuall repository to host your website).
 If you use other name for the repository to host your website, the website url would be `https://github.com/<username>/<repository_name>/`.
@@ -90,4 +92,10 @@ Now we are going to transform your markdown content into html and css and host o
 6. `git push origin master` to push all the difference to remote github file.
 7. Open browser and go to your `<username>.github.io` repository, go to `setting` and in the "GitHub Pages" section, choose "source" as `master branch`. Wait for a couple of minutes, and your website is established!
 
+## Include image in your blog
 
+The hugo-primer theme's default image path is `./static/images/*`, i.e., every file in the `./static/images/` directory, so
+
+-  Make a new directory called `images` in the static directory, i.e., `mkdir ./static/images`
+-  Put all your images in the `images` directory.
+-  Or, you can make a new directory based on your posts. For example, for this posts, I put all the images in the `./static/images/HugoNote/*`.
