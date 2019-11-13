@@ -13,16 +13,16 @@ weight: 1
 
 ## About me
 
-Hi! I am Hui-Jun Chen(陳惠鈞), an first-year Ph.D. student in Department of Economics, The Ohio State University. My research interests is mainly on industrial organization. Before I came here, I got my undergraduate and master degree in Economics at National Tsing Hua University, Taiwan (R.O.C.).
+Hi! My name is Hui-Jun Chen(陳惠鈞). I am a first-year Ph.D. student in the Department of Economics at The Ohio State University. My research mainly focuses on industrial organization. Before I arrived in the United States, I received my undergraduate and Master's degrees in Economics at National Tsing Hua University, Taiwan (R.O.C.).
 
-My master thesis is about how multi-product firms allocate their R\&D resources in two different products under Cournot competition. In the future, I wish to utilize my experience in theory of industrial organization and expand my horizon in empirical industrial organization.
+My master thesis is about how multi-product firms allocate their R\&D resources under Cournot competition. At The Ohio State University, I intend to use my experience in theoretical industrial organization as a foundation to explore the world of empirical industrial organization through an academic lens.
 
 
 ## Hobby / Tech
 
-One of my small hobby is to "rice" (customize) my Arch Linux. Arch Linux is a rolling releases Linux distro, with a huge community and the best [Arch Linux wiki](https://wiki.archlinux.org/) in the world. I do not use desktop environment. Instead, I use [bspwm](https://github.com/baskerville/bspwm) as my tiling windows manager, and [polybar](https://github.com/polybar/polybar) as my status bar. You can find my dotfiles in my github repository.
+A small hobby of mine is to "rice" (customize) my Arch Linux. Arch Linux is a rolling release Linux distro, with a huge community and an outstanding [Arch Linux wiki](https://wiki.archlinux.org/). I use [bspwm](https://github.com/baskerville/bspwm) as my tiling windows manager, and [polybar](https://github.com/polybar/polybar) as my status bar. You can find my dotfiles in my github repository.
 
-The programming language I mainly use is shell scripting. I try my best to write my scripts in POSIX compliant shell, the least functional shell that has the best portability. Now I am learning Matlab in the macroeconomics courses, and I wish I can learn python and/or R in the future.
+The programming language I mainly use is shell scripting. I try my best to write my scripts in POSIX compliant shell. I am currently learning Matlab in my Macroeconomics courses and python and R in my spare time.
 
 
 ## Contact me
