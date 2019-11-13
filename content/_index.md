@@ -20,7 +20,7 @@ My master thesis is about how multi-product firms allocate their R\&D resources 
 
 ## Hobby / Tech
 
-A small hobby of mine is to "rice" (customize) my Arch Linux. Arch Linux is a rolling release Linux distro, with a huge community and an outstanding [Arch Linux wiki](https://wiki.archlinux.org/). I use [bspwm](https://github.com/baskerville/bspwm) as my tiling windows manager, and [polybar](https://github.com/polybar/polybar) as my status bar. You can find my dotfiles in my github repository.
+A small hobby of mine is to "rice" (customize) my Arch Linux. Arch Linux is a rolling release Linux distro, with a huge community and an outstanding [Arch Linux wiki](https://wiki.archlinux.org/). I use [bspwm](https://github.com/baskerville/bspwm) as my tiling windows manager, and [polybar](https://github.com/polybar/polybar) as my status bar. You can find my dotfiles in my [github repository](https://github.com/huijunchen9260/hjrice).
 
 The programming language I mainly use is shell scripting. I try my best to write my scripts in POSIX compliant shell. I am currently learning Matlab in my Macroeconomics courses and python and R in my spare time.
 
