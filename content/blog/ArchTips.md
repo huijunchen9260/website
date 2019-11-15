@@ -7,9 +7,7 @@ tags:
 - Arch
 ---
 
-## Firefox cannot paste anything on facebook manager
-
-Reference: [Solution](https://webapps.stackexchange.com/questions/73068/why-cant-i-paste-into-comments-in-facebook-in-firefox#75989)
+## Firefox cannot paste anything on facebook manager Reference: [Solution](https://webapps.stackexchange.com/questions/73068/why-cant-i-paste-into-comments-in-facebook-in-firefox#75989)
 
 Type `about:config` in New Tab, and search for `dom.event.clipboardevents.enabled`, and change the value to enable.
 
@@ -42,4 +40,6 @@ Direct way:
 		- Install driver with root priviledge: `sudo hp-setup -i`
 		- Check your printer is ready in `system-config-printer` - Go to `zathura` and print your file!
 		- If the printer says "unplugged or turned off", then delete the printer in the `system-config-printer` and add it again.
+
+
 
