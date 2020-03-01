@@ -2,15 +2,20 @@
 
 baseURL = "https://huijunchen9260.github.io/"
 title = "Hui-Jun Chen"
-theme = "hugo-primer"
+# theme = "hugo-primer"
+theme = "black-and-light"
 languageCode = "en-us"
 # If you are using Chinese, Japanese, or Korean, I highly recommend you to set this true.
-hasCJKLanguage = true
-summaryLength = 70
+# hasCJKLanguage = true
+# summaryLength = 70
+
 # Code pen
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-googleAnalytics = "U-12345678-0"
+# pygmentsCodeFences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "U-12345678-0"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -21,11 +26,25 @@ copyright = "&copy; Hui-Jun Chen 2019"
 lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [params]
-description = "Homepage for Hui-Jun Chen, Ph.D. student in Economics, The Ohio State University"
+# description = "Homepage for Hui-Jun Chen, Ph.D. student in Economics, The Ohio State University"
+  sitename = "Hui-Jun Chen"
+  disableWebFonts = false
 # twitter = "your_twitter_id"
 # You can use favicon by addin them manually.
-useIcon = false
-useTwitterCard = true
+# useIcon = false
+# useTwitterCard = true
 
-shareTo = ["Email", "Hatena", "Facebook", "Pocket"]
-showFooterCredits = true
+# shareTo = ["Email", "Hatena", "Facebook", "Pocket"]
+# shareTo = ["Email", "Facebook"]
+# showFooterCredits = true
+
+
+[[menu.main]]
+    name = "About"
+    url  = "https://huijunchen9260.github.io/about"
+[[menu.main]]
+    name = "Research"
+    url  = "https://huijunchen9260.github.io/research/"
+[[menu.main]]
+    name = "Blog"
+    url  = "https://huijunchen9260.github.io/blog/"
